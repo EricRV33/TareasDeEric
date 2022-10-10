@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3: Reglas</title>
+	<style type="text/css">
+		/* Ejercicio */
+		/* Agregar los elementos de HTML las reglas de CSS necesarios para que la página quede igual al resultado (Ejercicio3_1.png, Ejercicio3_2.png). */
+		/* Nota: La imagen Ejercicio3_2.jpg muestra como se ven los elementos al pasar por arriba el puntero del mouse. Estos estilos se deben replicar en todas las casillas de la tabla.*/
+		table{
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+		
+		th,td{
+			border: 1px solid black;
+			padding: 5px;
+		}
+		tr:nth-child(even){
+			background-color: gray;
+		}
+		tr{
+			background-color: #ddd;
+		}
+		td.ama{
+			color: yellow;
+		}
+		td.roj{
+			color: red;
+		}
+		td.ver{
+			color: green;
+		}
+		td.azu{
+
+			color: blue;
+
+		}
+		td.ama:hover {
+			background-color: yellow;
+			color: black;
+		}
+		td.azu:hover{
+			background-color: blue;
+			color: black;
+		}
+		td.ver:hover{
+			background-color: green;
+			color: black;
+		}
+		td.roj:hover{
+			background-color: red;
+			color: black;
+		}
+		  #red{
+		 
+		 	color: red;
+		 }
+		 #blue{
+
+		 	color: blue;
+
+		 }
+		  #green{
+
+		 	color: green;
+
+		 }
+		
+		
+		}	</style>
+</head>
+<body>
+	<h1  id="red">Tabla <h id="blue">de<h id="green"> colores   </h1>
+	<table>
+	<tbody>
+	  <tr>
+	    <td id="am" class="ama" >Amarillo</td>
+	    <td class="ver">Verde</td>
+	    <td class="azu">Azul</td>
+	    <td class="roj">Rojo</td>
+	  </tr>
+	  <tr>
+	    <td class="azu">Azul</td>
+	    <td class="ver">Verde</td>
+	    <td class="roj">Rojo</td>
+	    <td class="ama">Amarillo</td>
+	  </tr>
+	  <tr>
+	    <td class="ver">Verde</td>
+	    <td class="ama">Amarillo</td>
+	    <td class="roj">Rojo</td>
+	    <td class="azu">Azul</td>
+	  </tr>
+	  <tr>
+	    <td class="roj">Rojo</td>
+	    <td class="azu">Azul</td>
+	    <td class="ama">Amarillo</td>
+	    <td class="ver">Verde</td>
+	  </tr>
+	</tbody>
+	</table>
+
+	</div>
+
+</body>
+</html>
